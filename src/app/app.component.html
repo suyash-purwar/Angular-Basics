@@ -1,6 +1,11 @@
-<h1>I'm in the AppComponent</h1>
-<hr>
+<div class="container">
+  <h1>I'm in the AppComponent</h1>
+  <hr>
 
-<app-servers></app-servers>
+  <button class = "btn btn-primary" [disabled]="buttonDisabled">Add Server</button>
+  <p [innerText]="buttonDisabled"></p>
+  <app-servers></app-servers>
 
-<app-server></app-server>
+  <hr>
+  <hr>
+</div>
